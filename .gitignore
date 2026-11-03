@@ -1,0 +1,26 @@
+# Secrets (commit the .env.example files instead)
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Data: local database and run results
+*.db
+*.sqlite
+*.sqlite3
+
+# Frontend
+node_modules/
+dist/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+*.log
